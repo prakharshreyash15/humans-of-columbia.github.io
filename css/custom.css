@@ -1,7 +1,18 @@
 body {
   padding-top: 50px;
 }
+p {
+  font-family: 'PT Sans Narrow', sans-serif;
+}
 
+a {
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+h1 {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: bold;
+}
 
 body,html {
   width: 100%;
@@ -29,4 +40,4 @@ body,html {
 .intro-text {
   padding: 40px 15px;
   text-align: center;
-}s
+}
