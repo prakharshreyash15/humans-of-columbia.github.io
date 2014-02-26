@@ -21,12 +21,11 @@ body,html {
 .tile {
   height: 100%;
   width: 100%;
-  position: relative;
   background-color: #eaeaea;
 }
 
 #title {
-  background-color: #222;
+  background-color: #000000;
 }
 
 #about {
@@ -40,4 +39,8 @@ body,html {
 .intro-text {
   padding: 40px 15px;
   text-align: center;
+}
+
+.navbar-inverse {
+  background-color: rgba(0, 0, 0, 0.9);
 }

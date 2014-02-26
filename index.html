@@ -30,26 +30,26 @@
     <![endif]-->
     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>-->
     <script src="js/jquery.animatedscroll-1.1.5.min.js"></script>
     <script type="text/javascript" src="js/verticalscroller.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
+    
   </head>
 
   <body>
-    <div id="a">
-    </div>
     <div class='tile' id='title'>
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
           <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <!--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#a">HUMANS OF COLUMBIA</a>
+            </button>-->
+            <a class="navbar-brand" href="#title">HUMANS OF COLUMBIA</a>
           </div>
           <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
@@ -87,5 +87,17 @@
       </div><!-- /.container -->
     </div>
 
-  </body>
+    
+    <!-- Backstretch slideshow -->
+    <script src="js/jquery.backstretch.min.js"></script>
+    <script>
+        $("#title").backstretch([
+          "images/HOC4.jpg",
+          "images/HOC6.jpg",
+          ], {
+            fade: 2000,
+            duration: 4000
+        });
+    </script>
+    </body>
 </html>
