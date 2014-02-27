@@ -26,8 +26,6 @@ body,html {
 
 #title {
   background-color: #000000;
-
-
 }
 
 #about {
@@ -53,4 +51,36 @@ body,html {
 .navbar-brand {
   min-height:74px;
   line-height:45px;
+  font-size:25px;
+}
+
+.navbar-inverse .navbar-brand {
+  color:#FFFFFF;
+}
+
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+  color: #999;
+  background-color: transparent;
+}
+
+.navbar-nav {
+  min-height:74px;
+  line-height: 45px;
+}
+
+.navbar-nav>li>a {
+  line-height:45px;
+  font-size:20px;
+  padding-left:30px;
+}
+
+.navbar-inverse .navbar-nav >li >a {
+  color:#FFFFFF;
+}
+
+.navbar-inverse .navbar-nav >li >a:hover,
+.navbar-inverse .navbar-nav >li >a:focus {
+  color: #999;
+  background-color: transparent;
 }
