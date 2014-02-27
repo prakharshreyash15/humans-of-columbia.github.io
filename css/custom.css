@@ -26,14 +26,18 @@ body,html {
 
 #title {
   background-color: #000000;
+  position:absolute;
+  top:0px;
 }
 
 #about {
   background-color: #FFFFFF;
+  padding-top:5%;
 }
 
 #submit {
   background-color: #eaeaea;
+  padding-top:2%;
 }
 
 .intro-text {
@@ -42,5 +46,5 @@ body,html {
 }
 
 .navbar-inverse {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.3);
 }
