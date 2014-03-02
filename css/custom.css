@@ -31,10 +31,10 @@ body,html {
 #logo {
   position:absolute;
   top:50%;
-  max-width:56%;
+  max-width:30%;
   left:50%;
-  margin-left:-28%;
-  margin-top:-17%;
+  margin-left:-10%;
+  margin-top:-12%;
   display:block; 
 }
 
