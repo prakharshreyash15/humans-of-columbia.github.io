@@ -38,6 +38,17 @@ body,html {
   display:block; 
 }
 
+#arrow {
+  opacity: 0.5;
+
+  position:absolute;
+  top:90%;
+  left:50%;
+  max-width:3%;
+  margin-left:-2.5%;
+
+}
+
 #about {
   background-color: #FFFFFF;
   padding-top:5%;
