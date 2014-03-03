@@ -30,10 +30,10 @@ body,html {
 
 #logo {
   position:absolute;
-  top:50%;
-  max-width:50%;
+  top:55%;
+  max-width:25%;
   left:50%;
-  margin-left:-25%;
+  margin-left:-11%;
   margin-top:-12%;
   display:block; 
 }
@@ -51,6 +51,11 @@ body,html {
 .intro-text {
   padding: 40px 15px;
   text-align: center;
+}
+
+.lead {
+  text-indent: 2em;
+  text-align:left;
 }
 
 .navbar {
