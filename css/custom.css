@@ -70,12 +70,15 @@ body,html {
 }
 
 .lead {
-  text-indent: 2em;
   text-align:left;
 }
 
+.indented {
+  text-indent: 2em;
+}
+
 .navbar {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.5);
   min-height:74px;
 }
 
@@ -128,4 +131,9 @@ hr {
   border:0 none;
   display:block;
   background-color:#69A6CF;
+}
+
+ul {
+  text-align:left;
+  margin-bottom:25px;
 }
