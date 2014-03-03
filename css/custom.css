@@ -19,12 +19,17 @@ body,html {
   height: 100%;
 }
 .tile {
-  height: 100%;
-  width: 100%;
+  
   background-color: #eaeaea;
 }
 
+.container {
+  width:1024px;
+}
+
 #title {
+  height: 100%;
+  width: 100%;
   background-color: #000000;
 }
 
@@ -42,19 +47,20 @@ body,html {
   position:absolute;
   top:90%;
   left:50%;
-  max-width:2.5%;
+  max-width:1.5%;
   margin-left:-1.25%;
 
 }
 
+
 #about {
   background-color: #FFFFFF;
-  padding-top:5%;
+  padding-top:3%;
 }
 
 #submit {
   background-color: #eaeaea;
-  padding-top:5%;
+  padding-top:3%;
 }
 
 .intro-text {
@@ -112,4 +118,13 @@ body,html {
 .navbar-inverse .navbar-nav >li >a:focus {
   color: #999;
   background-color: transparent;
+}
+
+hr {
+  height:4px;
+  width:70px;
+  margin: 2.75em auto 3.25em;
+  border:0 none;
+  display:block;
+  background-color:#69A6CF;
 }
