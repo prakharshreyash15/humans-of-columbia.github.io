@@ -91,7 +91,7 @@ ul {
 }
 
 .intro-text {
-  padding: 40px 15px;
+  padding: 25px 15px;
   text-align: center;
 }
 
@@ -113,7 +113,7 @@ ul {
 }
 
 .navbar-brand {
-  min-height:74px;
+  /*min-height:74px;*/
   line-height:45px;
   font-size:25px;
 }
@@ -175,6 +175,13 @@ hr {
 .footer-text {
   color:#FFFFFF;
   margin-bottom:0px;
+  font-size:14px;
+}
+
+.credit-text{
+  color:#FFFFFF;
+  margin-bottom:0px;
+  font-size:17px;
 }
 
 /** RESPONSIVE **/
@@ -198,6 +205,14 @@ hr {
   p{
     font-size:21px;
   }
+  .intro-text {
+    padding: 35px 15px;
+  }
+
+  .footer-text,
+  .credit-text {
+    font-size:21px;
+  }
 }
 
 
@@ -214,9 +229,6 @@ hr {
     margin-top:-18%;
   }
 
-
-
-
 }
 
 
@@ -232,8 +244,5 @@ hr {
     top:50%;
     margin-top:-12%;
   }
-
-
-
 
 }
