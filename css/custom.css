@@ -64,12 +64,6 @@ body,html {
 
 }
 
-#arrow-2 {
-  left:50%;
-  max-width:1.5%;
-  margin-left:-0.75%;
-}
-
 
 #about {
   background-color: #FFFFFF;
@@ -159,6 +153,8 @@ hr {
 ul {
   text-align:left;
   margin-bottom:25px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size:17px;
 }
 
 .footer-text {
