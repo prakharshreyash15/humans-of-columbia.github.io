@@ -8,9 +8,20 @@ p {
 
 a {
   font-family: 'PT Sans Narrow', sans-serif;
+  color:#69A6CF;
+}
+
+a:hover {
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-decoration: none;
 }
 
 h1 {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: bold;
+}
+
+h2 {
   font-family: 'PT Sans Narrow', sans-serif;
   font-weight: bold;
 }
@@ -53,6 +64,12 @@ body,html {
 
 }
 
+#arrow-2 {
+  left:50%;
+  max-width:1.5%;
+  margin-left:-0.75%;
+}
+
 
 #about {
   background-color: #FFFFFF;
@@ -62,6 +79,12 @@ body,html {
 #submit {
   background-color: #eaeaea;
   padding-top:3%;
+}
+
+#footer {
+  background-color: #69A6CF;
+  height:20%;
+  padding-top:2%;
 }
 
 .intro-text {
@@ -136,4 +159,9 @@ hr {
 ul {
   text-align:left;
   margin-bottom:25px;
+}
+
+.footer-text {
+  color:#FFFFFF;
+  margin-bottom:0px;
 }
