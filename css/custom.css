@@ -68,11 +68,13 @@ body,html {
 #about {
   background-color: #FFFFFF;
   padding-top:3%;
+  padding-bottom:2%;
 }
 
 #submit {
   background-color: #eaeaea;
   padding-top:3%;
+  padding-bottom:2%;
 }
 
 #footer {
@@ -92,6 +94,10 @@ body,html {
 
 .indented {
   text-indent: 2em;
+}
+
+.smaller-text {
+  font-size:17px;
 }
 
 .navbar {
