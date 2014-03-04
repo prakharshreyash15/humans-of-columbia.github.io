@@ -30,10 +30,7 @@ body,html {
   width: 100%;
   height: 100%;
 }
-.tile {
-  
-  background-color: #eaeaea;
-}
+
 
 #logo {
   position:absolute;
@@ -78,8 +75,14 @@ ul {
   padding-bottom:2%;
 }
 
+#project {
+  background-color: #F9F5F1;
+  padding-top:3%;
+  padding-bottom:2%;
+}
+
 #submit {
-  background-color: #eaeaea;
+  background-color: #FFF;
   padding-top:3%;
   padding-bottom:2%;
 }
@@ -167,7 +170,15 @@ hr {
   margin: 2.75em auto 3.25em;
   border:0 none;
   display:block;
+}
+
+hr.standard-hr{
+  
   background-color:#69A6CF;
+}
+
+hr.project-hr {
+  background-color:#464646;
 }
 
 
@@ -181,7 +192,7 @@ hr {
 .credit-text{
   color:#FFFFFF;
   margin-bottom:0px;
-  font-size:17px;
+  font-size:15px;
 }
 
 /** RESPONSIVE **/
