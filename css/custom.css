@@ -44,6 +44,11 @@ body,html {
 
 .container {
 }
+
+.container-gallery {
+  margin-bottom:70px;
+}
+
 ul {
   text-align:left;
   margin-bottom:25px;
@@ -148,9 +153,11 @@ ul {
 
 .navbar-nav>li>a {
   line-height:45px;
-  font-size:20px;
+  font-size:17px;
   padding-left:30px;
 }
+
+
 
 .navbar-inverse .navbar-nav >li >a {
   color:#FFFFFF;
@@ -189,17 +196,22 @@ hr.project-hr {
 img {
 }
 
+#footer-para {
+    margin-top:5%;
+}
+
 .footer-text {
   color:#FFFFFF;
   margin-bottom:0px;
   font-size:14px;
-  margin-top: 20px;
+  text-align: center;
 }
 
 .credit-text{
   color:#FFFFFF;
   margin-bottom:0px;
   font-size:15px;
+  text-align: center;
 }
 
 .thumb{
@@ -236,12 +248,15 @@ img {
   .footer-text,
   .credit-text {
     font-size:21px;
-    margin-top: 0px;
   }
 
   .thumb{
     width:30.5%;
     margin:1%;
+  }
+
+  #footer-para {
+    margin-top:4%;
   }
 }
 
@@ -250,6 +265,10 @@ img {
 @media (min-width: 992px) {
   .container {
     width: 800px;
+  }
+
+  .navbar-nav>li>a {
+    font-size:20px;
   }
 
   #logo{
@@ -264,6 +283,10 @@ img {
     margin:3px;
   }
 
+  #footer-para {
+    margin-top:4%;
+  }
+
 }
 
 
@@ -271,6 +294,10 @@ img {
 @media (min-width: 1200px) {
   .container {
     width: 1024px;
+  }
+
+  .navbar-nav>li>a {
+    font-size:20px;
   }
 
   #logo{
@@ -284,6 +311,10 @@ img {
     width:190px;
     margin:3px;
   }
+
+  #footer-para {
+    margin-top:6%;
+}
 
 }
 
