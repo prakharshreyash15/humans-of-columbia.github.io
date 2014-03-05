@@ -69,8 +69,8 @@ ul {
   position:absolute;
   top:90%;
   left:50%;
-  max-width:1.5%;
-  margin-left:-0.75%;
+  max-width:4.5%;
+  margin-left:-2.25%;
 
 }
 
@@ -235,6 +235,11 @@ img {
     margin-top:-18%;
   }
 
+  #arrow {
+    max-width:2.5%;
+    margin-left:-1.25%;
+  }
+
   ul{
     font-size: 17px;
   }
@@ -282,6 +287,11 @@ img {
     margin-top:-18%;
   }
 
+  #arrow {
+    max-width:2%;
+    margin-left:-1%;
+  }
+
   .thumb{
     width:145px;
     margin:3px;
@@ -309,6 +319,11 @@ img {
     margin-left:-190px;
     top:50%;
     margin-top:-12%;
+  }
+
+  #arrow {
+    max-width:1.5%;
+    margin-left:-0.75%;
   }
 
   .thumb{
