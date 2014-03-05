@@ -100,7 +100,7 @@ ul {
 
 #footer {
   background-color: #69A6CF;
-  height:20%;
+  height:25%;
 }
 
 .intro-text {
@@ -203,14 +203,14 @@ img {
 .footer-text {
   color:#FFFFFF;
   margin-bottom:0px;
-  font-size:14px;
+  font-size:16px;
   text-align: center;
 }
 
 .credit-text{
   color:#FFFFFF;
   margin-bottom:0px;
-  font-size:15px;
+  font-size:16px;
   text-align: center;
 }
 
@@ -243,6 +243,9 @@ img {
   }
   .intro-text {
     padding: 35px 15px;
+  }
+  #footer {
+    height:20%;
   }
 
   .footer-text,
