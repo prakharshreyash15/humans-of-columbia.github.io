@@ -203,7 +203,7 @@ img {
 }
 
 .thumb{
-    max-width:33%;
+    max-width:30.5%;
     margin:1%;
   }
 
@@ -240,8 +240,8 @@ img {
   }
 
   .thumb{
-    width:215px;
-    margin:3px;
+    width:30.5%;
+    margin:1%;
   }
 }
 
