@@ -76,13 +76,19 @@ ul {
 }
 
 #project {
-  background-color: #F9F5F1;
+  background-color: #E9E6E3;
+  padding-top:3%;
+  padding-bottom:2%;
+}
+
+#gallery {
+  background-color:#FFF;
   padding-top:3%;
   padding-bottom:2%;
 }
 
 #submit {
-  background-color: #FFF;
+  background-color: #E9E6E3;
   padding-top:3%;
   padding-bottom:2%;
 }
@@ -90,7 +96,6 @@ ul {
 #footer {
   background-color: #69A6CF;
   height:20%;
-  padding-top:2%;
 }
 
 .intro-text {
@@ -181,12 +186,14 @@ hr.project-hr {
   background-color:#464646;
 }
 
-
+img {
+}
 
 .footer-text {
   color:#FFFFFF;
   margin-bottom:0px;
   font-size:14px;
+  margin-top: 20px;
 }
 
 .credit-text{
@@ -194,6 +201,11 @@ hr.project-hr {
   margin-bottom:0px;
   font-size:15px;
 }
+
+.thumb{
+    width:100px;
+  }
+
 
 /** RESPONSIVE **/
 
@@ -223,6 +235,7 @@ hr.project-hr {
   .footer-text,
   .credit-text {
     font-size:21px;
+    margin-top: 0px;
   }
 }
 
@@ -256,4 +269,10 @@ hr.project-hr {
     margin-top:-12%;
   }
 
+  .thumb{
+    width:190px;
+    margin:3px;
+  }
+
 }
+
