@@ -100,8 +100,10 @@ ul {
 }
 
 #footer {
-  background-color: #69A6CF;
   height:25%;
+  background:url(../images/HOC6-color-2.jpg) no-repeat;;
+  background-size:100%;
+  background-repeat:no-repeat;
 }
 
 .intro-text {
