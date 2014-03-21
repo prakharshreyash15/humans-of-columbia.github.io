@@ -100,7 +100,7 @@ ul {
 }
 
 #footer {
-  height:25%;
+  height:110px;
   background:url(../images/HOC6-color-2.jpg);
   background-size:100%;
   background-repeat:no-repeat;
@@ -201,7 +201,8 @@ img {
 }
 
 #footer-para {
-    margin-top:5%;
+    height:55px;
+    padding-top:38px;
 }
 
 .footer-text {
@@ -254,7 +255,7 @@ img {
     padding: 35px 15px;
   }
   #footer {
-    height:20%;
+    height:200px;
   }
 
   .footer-text,
@@ -268,7 +269,8 @@ img {
   }
 
   #footer-para {
-    margin-top:4%;
+    height:100px;
+    padding-top:78px;
   }
 }
 
@@ -298,10 +300,6 @@ img {
   .thumb{
     width:145px;
     margin:3px;
-  }
-
-  #footer-para {
-    margin-top:4%;
   }
 
 }
@@ -334,9 +332,6 @@ img {
     margin:3px;
   }
 
-  #footer-para {
-    margin-top:6%;
-}
 
 }
 
